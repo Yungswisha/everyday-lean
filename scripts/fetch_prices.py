@@ -3,7 +3,7 @@
 The app keys prices as '<food>|<unit>' and reads the price as AUD per 100 g
 ('g'), per 100 mL ('ml') or per item ('each').
 
-Usage: python scripts/fetch_prices.py [output path] [--only key1,key2]
+Usage: python scripts/fetch_prices.py [output path] [--only key1,key2] [--stores iga,coles]
 """
 import datetime as dt
 import json
@@ -77,6 +77,12 @@ def main():
         i = args.index('--only')
         only = set(args[i + 1].split(','))
         del args[i:i + 2]
+    stores = STORES
+    if '--stores' in args:  # e.g. --stores iga
+        i = args.index('--stores')
+        wanted = set(args[i + 1].split(','))
+        stores = [S for S in STORES if S.id in wanted]
+        del args[i:i + 2]
     out_path = args[0] if args else os.path.join(os.path.dirname(__file__), '..', 'prices.json')
 
     try:
@@ -87,7 +93,7 @@ def main():
 
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
     items, status = [], {}
-    for Store in STORES:
+    for Store in stores:
         fresh, failed, err = {}, 0, None
         try:
             store = Store()
@@ -127,6 +133,12 @@ def main():
         status[Store.id] = {'ok': bool(fresh), 'updated': len(fresh), 'keptPrevious': len(kept),
                             'failedSearches': failed, 'error': err}
         print(Store.id, status[Store.id], flush=True)
+
+    for Store in STORES:
+        if Store not in stores:
+            items += [i for i in previous.get('items', []) if i.get('storeId') == Store.id]
+            if Store.id in previous.get('stores', {}):
+                status[Store.id] = previous['stores'][Store.id]
 
     if not any(s['ok'] for s in status.values()):
         print('No store returned prices; leaving prices.json unchanged.')

@@ -21,8 +21,9 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch supermarket prices
-        run: python scripts/fetch_prices.py
+      # Woolworths and Coles block GitHub's servers; the home PC task updates those.
+      - name: Fetch IGA prices
+        run: python scripts/fetch_prices.py --stores iga
 
       - name: Discover recipes with Brave Search
         if: always()
