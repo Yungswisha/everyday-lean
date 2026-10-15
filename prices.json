@@ -1,19 +1,19 @@
 {
  "version": 1,
- "updatedAt": "2026-10-15T08:38:27Z",
+ "updatedAt": "2026-10-15T08:43:00Z",
  "note": "AUD per 100 g (|g), per 100 mL (|ml) or per item (|each). Prices may vary based on location.",
  "stores": {
   "woolworths": {
-   "ok": false,
-   "updated": 0,
-   "keptPrevious": 169,
+   "ok": true,
+   "updated": 165,
+   "keptPrevious": 4,
    "failedSearches": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": null
   },
   "coles": {
-   "ok": true,
-   "updated": 10,
-   "keptPrevious": 2,
+   "ok": false,
+   "updated": 0,
+   "keptPrevious": 12,
    "failedSearches": 0,
    "error": "Coles bot protection blocked the request"
   },
@@ -28,12 +28,48 @@
  "items": [
   {
    "storeId": "woolworths",
+   "key": "thigh|g",
+   "price": 0.8,
+   "product": "Woolworths RSPCA Approved Chicken Thigh Cutlets per 180g",
+   "shelfPrice": 8,
+   "size": "per 180g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "thigh|ml",
+   "price": 0.8,
+   "product": "Woolworths RSPCA Approved Chicken Thigh Cutlets per 180g",
+   "shelfPrice": 8,
+   "size": "per 180g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "fillet|g",
+   "price": 4.375,
+   "product": "Woolworths Cook Salmon Fillets With Miso & Maple Marinade 320g",
+   "shelfPrice": 14,
+   "size": "320g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "fillet|ml",
+   "price": 4.375,
+   "product": "Woolworths Cook Salmon Fillets With Miso & Maple Marinade 320g",
+   "shelfPrice": 14,
+   "size": "320g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
    "key": "rawturkey|g",
    "price": 1.3,
    "product": "Ingham's Turkey Mince 500g",
    "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -42,7 +78,7 @@
    "product": "Ingham's Turkey Mince 500g",
    "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -51,7 +87,7 @@
    "product": "Woolworths Beef Mince 1kg",
    "shelfPrice": 15,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -60,7 +96,7 @@
    "product": "Woolworths Beef Mince 1kg",
    "shelfPrice": 15,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -69,7 +105,7 @@
    "product": "Woolworths RSPCA Approved Chicken Breast Fillet per 350g",
    "shelfPrice": 9.5,
    "size": "per 350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -78,7 +114,7 @@
    "product": "Woolworths RSPCA Approved Chicken Breast Fillet per 350g",
    "shelfPrice": 9.5,
    "size": "per 350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -87,7 +123,7 @@
    "product": "Woolworths RSPCA Approved Chicken Breast Fillet per 350g",
    "shelfPrice": 9.5,
    "size": "per 350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -96,7 +132,7 @@
    "product": "Woolworths RSPCA Approved Chicken Breast Fillet per 350g",
    "shelfPrice": 9.5,
    "size": "per 350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -105,7 +141,7 @@
    "product": "Woolworths RSPCA Approved Chicken Thigh Cutlets per 180g",
    "shelfPrice": 8,
    "size": "per 180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -114,7 +150,7 @@
    "product": "Woolworths RSPCA Approved Chicken Thigh Cutlets per 180g",
    "shelfPrice": 8,
    "size": "per 180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -123,7 +159,7 @@
    "product": "Thawed Green Large Banana Prawns per 100g",
    "shelfPrice": 22,
    "size": "per 100g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -132,7 +168,7 @@
    "product": "Thawed Green Large Banana Prawns per 100g",
    "shelfPrice": 22,
    "size": "per 100g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -141,7 +177,7 @@
    "product": "Woolworths Cook Salmon Fillets With Miso & Maple Marinade 320g",
    "shelfPrice": 14,
    "size": "320g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -150,7 +186,7 @@
    "product": "Woolworths Cook Salmon Fillets With Miso & Maple Marinade 320g",
    "shelfPrice": 14,
    "size": "320g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -159,7 +195,7 @@
    "product": "Ocean Harvest Wild Alaskan Pink Salmon 415g",
    "shelfPrice": 7.5,
    "size": "415g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -168,7 +204,7 @@
    "product": "Ocean Harvest Wild Alaskan Pink Salmon 415g",
    "shelfPrice": 7.5,
    "size": "415g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -177,7 +213,7 @@
    "product": "John West Salmon In Springwater Value 95g x 3 pack",
    "shelfPrice": 7.5,
    "size": "95g x 3 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -186,7 +222,7 @@
    "product": "Woolworths Essentials Tuna Chunks In Spring Water 425g",
    "shelfPrice": 3.3,
    "size": "425g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -195,7 +231,7 @@
    "product": "Woolworths Essentials Tuna Chunks In Spring Water 425g",
    "shelfPrice": 3.3,
    "size": "425g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -204,7 +240,7 @@
    "product": "John West Tuna In Springwater Value 95g x 6 pack",
    "shelfPrice": 9.8,
    "size": "95g x 6 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -213,7 +249,7 @@
    "product": "Deep Cove Sardines In Springwater 125g",
    "shelfPrice": 1.4,
    "size": "125g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -222,7 +258,7 @@
    "product": "Deep Cove Sardines In Springwater 125g",
    "shelfPrice": 1.4,
    "size": "125g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -231,7 +267,7 @@
    "product": "Woolworths 12 Pack X Large Free Range Eggs 700g",
    "shelfPrice": 6.7,
    "size": "700g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -240,7 +276,7 @@
    "product": "Woolworths 12 Pack X Large Free Range Eggs 700g",
    "shelfPrice": 6.7,
    "size": "700g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -249,7 +285,7 @@
    "product": "Woolworths 12 Pack Large Free Range Eggs 600g",
    "shelfPrice": 6.4,
    "size": "600g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -258,7 +294,7 @@
    "product": "Farm Pride Frozen Egg Whites 950mL",
    "shelfPrice": 11.6,
    "size": "950mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -267,25 +303,25 @@
    "product": "Farm Pride Frozen Egg Whites 950mL",
    "shelfPrice": 11.6,
    "size": "950mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
    "key": "whey|g",
    "price": 6.45,
-   "product": "BSc Whey Protein Powder Vanilla - 1.8kg",
+   "product": "BSc Whey Protein Powder Chocolate - 1.8kg",
    "shelfPrice": 116.01,
    "size": "1800G",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
    "key": "whey|ml",
    "price": 6.45,
-   "product": "BSc Whey Protein Powder Vanilla - 1.8kg",
+   "product": "BSc Whey Protein Powder Chocolate - 1.8kg",
    "shelfPrice": 116.01,
    "size": "1800G",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -294,7 +330,7 @@
    "product": "Woolworths Creamed Cottage Cheese 500g",
    "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -303,7 +339,7 @@
    "product": "Woolworths Creamed Cottage Cheese 500g",
    "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -312,7 +348,7 @@
    "product": "Woolworths Greek Style Yoghurt 2kg",
    "shelfPrice": 8.4,
    "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -321,7 +357,7 @@
    "product": "Woolworths Greek Style Yoghurt 2kg",
    "shelfPrice": 8.4,
    "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -330,7 +366,7 @@
    "product": "Tamar Valley Dairy Greek Style Yoghurt 1kg",
    "shelfPrice": 6.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -339,7 +375,7 @@
    "product": "Tamar Valley Dairy Greek Style Yoghurt 1kg",
    "shelfPrice": 6.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -348,7 +384,7 @@
    "product": "Woolworths Lite Milk 3L",
    "shelfPrice": 4.95,
    "size": "3L",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -357,7 +393,7 @@
    "product": "Woolworths Lite Milk 3L",
    "shelfPrice": 4.95,
    "size": "3L",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -366,7 +402,7 @@
    "product": "Woolworths Australian Rolled Oats 1.5kg",
    "shelfPrice": 3.2,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -375,7 +411,7 @@
    "product": "Woolworths Australian Rolled Oats 1.5kg",
    "shelfPrice": 3.2,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -384,7 +420,7 @@
    "product": "Woolworths Essentials Long Grain Rice 5kg",
    "shelfPrice": 8.5,
    "size": "5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -393,7 +429,7 @@
    "product": "Woolworths Essentials Long Grain Rice 5kg",
    "shelfPrice": 8.5,
    "size": "5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -402,7 +438,7 @@
    "product": "Macro Organic Wholemeal Spirals 500g",
    "shelfPrice": 1.95,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -411,34 +447,34 @@
    "product": "Macro Organic Wholemeal Spirals 500g",
    "shelfPrice": 1.95,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
    "key": "bread|g",
-   "price": 0.6,
-   "product": "Tip Top Sunblest Soft Wholemeal Bread Loaf Sandwich Bakery 650g",
-   "shelfPrice": 3.9,
+   "price": 0.38,
+   "product": "Woolworths White Sandwich Bread Loaf 650g",
+   "shelfPrice": 2.5,
    "size": "650g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
    "key": "bread|ml",
-   "price": 0.6,
-   "product": "Tip Top Sunblest Soft Wholemeal Bread Loaf Sandwich Bakery 650g",
-   "shelfPrice": 3.9,
+   "price": 0.38,
+   "product": "Woolworths White Sandwich Bread Loaf 650g",
+   "shelfPrice": 2.5,
    "size": "650g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
    "key": "bread|each",
-   "price": 0.228,
-   "product": "Tip Top Sunblest Soft Wholemeal Bread Loaf Sandwich Bakery 650g",
-   "shelfPrice": 3.9,
+   "price": 0.1444,
+   "product": "Woolworths White Sandwich Bread Loaf 650g",
+   "shelfPrice": 2.5,
    "size": "650g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -447,7 +483,7 @@
    "product": "Woolworths Wholegrain Wrap 8Pk 360g",
    "shelfPrice": 2.2,
    "size": "360g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -456,7 +492,7 @@
    "product": "Woolworths Wholegrain Wrap 8Pk 360g",
    "shelfPrice": 2.2,
    "size": "360g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -465,7 +501,7 @@
    "product": "Woolworths Wholegrain Wrap 8Pk 360g",
    "shelfPrice": 2.2,
    "size": "360g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -474,7 +510,7 @@
    "product": "Woolworths Thin Brown Rice Cakes Original 150g",
    "shelfPrice": 1.7,
    "size": "150g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -483,7 +519,7 @@
    "product": "Woolworths Thin Brown Rice Cakes Original 150g",
    "shelfPrice": 1.7,
    "size": "150g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -492,7 +528,7 @@
    "product": "Woolworths Thin Brown Rice Cakes Original 150g",
    "shelfPrice": 1.7,
    "size": "150g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -501,7 +537,7 @@
    "product": "Woolworths Essentials Breadcrumbs 750g",
    "shelfPrice": 3,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -510,7 +546,7 @@
    "product": "Woolworths Essentials Breadcrumbs 750g",
    "shelfPrice": 3,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -519,7 +555,7 @@
    "product": "Woolworths Black Beans 420g",
    "shelfPrice": 0.9,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -528,7 +564,7 @@
    "product": "Woolworths Black Beans 420g",
    "shelfPrice": 0.9,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -537,7 +573,7 @@
    "product": "Edgell Black Beans 125g x 4 pack",
    "shelfPrice": 4,
    "size": "125g x 4 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -546,7 +582,7 @@
    "product": "Woolworths Red Kidney Beans 420g",
    "shelfPrice": 0.95,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -555,7 +591,7 @@
    "product": "Woolworths Red Kidney Beans 420g",
    "shelfPrice": 0.95,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -564,7 +600,7 @@
    "product": "Spiral Organic Kidney Beans 6 x 400g",
    "shelfPrice": 17.95,
    "size": "2400.0G",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -573,7 +609,7 @@
    "product": "Woolworths Chickpeas 420g",
    "shelfPrice": 0.95,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -582,7 +618,7 @@
    "product": "Woolworths Chickpeas 420g",
    "shelfPrice": 0.95,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -591,7 +627,7 @@
    "product": "Edgell Chickpeas 125g x 4 pack",
    "shelfPrice": 4,
    "size": "125g x 4 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -600,7 +636,7 @@
    "product": "Woolworths Lentils 420g",
    "shelfPrice": 0.95,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -609,7 +645,7 @@
    "product": "Woolworths Lentils 420g",
    "shelfPrice": 0.95,
    "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -618,7 +654,7 @@
    "product": "Bell Farms Frozen Salted Edamame 400g",
    "shelfPrice": 2.8,
    "size": "400g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -627,7 +663,7 @@
    "product": "Bell Farms Frozen Salted Edamame 400g",
    "shelfPrice": 2.8,
    "size": "400g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -636,7 +672,7 @@
    "product": "Cavendish Bananas each",
    "shelfPrice": 0.88,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -645,7 +681,7 @@
    "product": "Cavendish Bananas each",
    "shelfPrice": 0.88,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -654,7 +690,7 @@
    "product": "Cavendish Bananas each",
    "shelfPrice": 0.88,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -663,7 +699,7 @@
    "product": "Fresh Pink Lady Apples each",
    "shelfPrice": 0.86,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -672,7 +708,7 @@
    "product": "Fresh Pink Lady Apples each",
    "shelfPrice": 0.86,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -681,7 +717,7 @@
    "product": "Fresh Pink Lady Apples each",
    "shelfPrice": 0.86,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -690,7 +726,7 @@
    "product": "Woolworths Navel Oranges Bag 3kg",
    "shelfPrice": 8.5,
    "size": "3kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -699,7 +735,7 @@
    "product": "Woolworths Navel Oranges Bag 3kg",
    "shelfPrice": 8.5,
    "size": "3kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -708,7 +744,7 @@
    "product": "Woolworths Navel Oranges Bag 3kg",
    "shelfPrice": 8.5,
    "size": "3kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -717,7 +753,7 @@
    "product": "Woolworths Kiwi Fruit Green 8 pack",
    "shelfPrice": 6.9,
    "size": "8 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -726,7 +762,7 @@
    "product": "Woolworths Kiwi Fruit Green 8 pack",
    "shelfPrice": 6.9,
    "size": "8 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -735,7 +771,7 @@
    "product": "Woolworths Kiwi Fruit Green 8 pack",
    "shelfPrice": 6.9,
    "size": "8 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -744,7 +780,7 @@
    "product": "The Odd Bunch Lime Prepacked 500g",
    "shelfPrice": 9.1,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -753,7 +789,7 @@
    "product": "The Odd Bunch Lime Prepacked 500g",
    "shelfPrice": 9.1,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -762,7 +798,7 @@
    "product": "The Odd Bunch Lime Prepacked 500g",
    "shelfPrice": 9.1,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -771,7 +807,7 @@
    "product": "Lemon Loose each",
    "shelfPrice": 1.49,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -780,7 +816,7 @@
    "product": "The Odd Bunch Lemon Prepacked 500g",
    "shelfPrice": 3.4,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -789,7 +825,7 @@
    "product": "The Odd Bunch Lemon Prepacked 500g",
    "shelfPrice": 3.4,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -798,7 +834,7 @@
    "product": "Blueberries Punnet 170g",
    "shelfPrice": 4.4,
    "size": "170g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -807,7 +843,7 @@
    "product": "Blueberries Punnet 170g",
    "shelfPrice": 4.4,
    "size": "170g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -816,7 +852,7 @@
    "product": "Woolworths Frozen Mixed Berries 1kg",
    "shelfPrice": 13,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -825,7 +861,7 @@
    "product": "Woolworths Frozen Mixed Berries 1kg",
    "shelfPrice": 13,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -834,7 +870,7 @@
    "product": "The Odd Bunch Tomato Prepacked 1kg",
    "shelfPrice": 5.9,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -843,7 +879,7 @@
    "product": "The Odd Bunch Tomato Prepacked 1kg",
    "shelfPrice": 5.9,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -852,7 +888,7 @@
    "product": "The Odd Bunch Tomato Prepacked 1kg",
    "shelfPrice": 5.9,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -861,7 +897,7 @@
    "product": "The Odd Bunch Capsicum Prepacked 1kg",
    "shelfPrice": 6.3,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -870,7 +906,7 @@
    "product": "The Odd Bunch Capsicum Prepacked 1kg",
    "shelfPrice": 6.3,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -879,7 +915,7 @@
    "product": "The Odd Bunch Capsicum Prepacked 1kg",
    "shelfPrice": 6.3,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -888,7 +924,7 @@
    "product": "The Odd Bunch Zucchini Prepacked 750g",
    "shelfPrice": 5.3,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -897,7 +933,7 @@
    "product": "The Odd Bunch Zucchini Prepacked 750g",
    "shelfPrice": 5.3,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -906,7 +942,7 @@
    "product": "The Odd Bunch Zucchini Prepacked 750g",
    "shelfPrice": 5.3,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -915,7 +951,7 @@
    "product": "Woolworths Kale & Baby Spinach 300g",
    "shelfPrice": 5.2,
    "size": "300g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -924,7 +960,7 @@
    "product": "Woolworths Kale & Baby Spinach 300g",
    "shelfPrice": 5.2,
    "size": "300g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -933,7 +969,7 @@
    "product": "The Odd Bunch Lebanese Cucumber Punnet 750g",
    "shelfPrice": 3.5,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -942,7 +978,7 @@
    "product": "The Odd Bunch Lebanese Cucumber Punnet 750g",
    "shelfPrice": 3.5,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -951,7 +987,7 @@
    "product": "The Odd Bunch Lebanese Cucumber Punnet 750g",
    "shelfPrice": 3.5,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -960,7 +996,7 @@
    "product": "The Odd Bunch Carrots 1.5kg",
    "shelfPrice": 2.4,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -969,7 +1005,7 @@
    "product": "The Odd Bunch Carrots 1.5kg",
    "shelfPrice": 2.4,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -978,7 +1014,7 @@
    "product": "The Odd Bunch Carrots 1.5kg",
    "shelfPrice": 2.4,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -987,7 +1023,7 @@
    "product": "Woolworths Cos Hearts Lettuce 2 pack",
    "shelfPrice": 3.5,
    "size": "2 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -996,7 +1032,7 @@
    "product": "Woolworths Cos Hearts Lettuce 2 pack",
    "shelfPrice": 3.5,
    "size": "2 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1005,7 +1041,7 @@
    "product": "Woolworths Cos Hearts Lettuce 2 pack",
    "shelfPrice": 3.5,
    "size": "2 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1014,7 +1050,7 @@
    "product": "Woolworths Onion Brown Bag 1kg",
    "shelfPrice": 2.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1023,7 +1059,7 @@
    "product": "Woolworths Onion Brown Bag 1kg",
    "shelfPrice": 2.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1032,7 +1068,7 @@
    "product": "Woolworths Onion Brown Bag 1kg",
    "shelfPrice": 2.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1041,7 +1077,7 @@
    "product": "Woolworths Red Onions Bag 1kg",
    "shelfPrice": 5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1050,7 +1086,7 @@
    "product": "Woolworths Red Onions Bag 1kg",
    "shelfPrice": 5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1059,7 +1095,7 @@
    "product": "Woolworths Red Onions Bag 1kg",
    "shelfPrice": 5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1068,7 +1104,7 @@
    "product": "Woolworths Garlic Cloves 70g",
    "shelfPrice": 3.8,
    "size": "70g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1077,7 +1113,7 @@
    "product": "Woolworths Garlic Cloves 70g",
    "shelfPrice": 3.8,
    "size": "70g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1086,7 +1122,7 @@
    "product": "Woolworths Garlic Cloves 70g",
    "shelfPrice": 3.8,
    "size": "70g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1095,7 +1131,7 @@
    "product": "Ginger Fresh per 80g",
    "shelfPrice": 33,
    "size": "per 80g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1104,7 +1140,7 @@
    "product": "Ginger Fresh per 80g",
    "shelfPrice": 33,
    "size": "per 80g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1113,7 +1149,7 @@
    "product": "Mushrooms Cups Loose per 200g",
    "shelfPrice": 11.5,
    "size": "per 200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1122,7 +1158,7 @@
    "product": "Mushrooms Cups Loose per 200g",
    "shelfPrice": 11.5,
    "size": "per 200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1131,7 +1167,7 @@
    "product": "Fresh Broccoli each",
    "shelfPrice": 2.15,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1140,7 +1176,7 @@
    "product": "Fresh Broccoli each",
    "shelfPrice": 2.15,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1149,376 +1185,7 @@
    "product": "Fresh Broccoli each",
    "shelfPrice": 2.15,
    "size": "each",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "beansgreen|g",
-   "price": 1.15,
-   "product": "Woolworths Beanette Pre Pack Punnet 400g",
-   "shelfPrice": 4.6,
-   "size": "400g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "beansgreen|ml",
-   "price": 1.15,
-   "product": "Woolworths Beanette Pre Pack Punnet 400g",
-   "shelfPrice": 4.6,
-   "size": "400g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "peas|g",
-   "price": 0.25,
-   "product": "Woolworths Essentials Frozen Peas 1kg",
-   "shelfPrice": 2.5,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "peas|ml",
-   "price": 0.25,
-   "product": "Woolworths Essentials Frozen Peas 1kg",
-   "shelfPrice": 2.5,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "corn|g",
-   "price": 0.238,
-   "product": "Woolworths Corn Sweet Kernels 420g",
-   "shelfPrice": 1,
-   "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "corn|ml",
-   "price": 0.238,
-   "product": "Woolworths Corn Sweet Kernels 420g",
-   "shelfPrice": 1,
-   "size": "420g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "corn|each",
-   "price": 0.7,
-   "product": "Woolworths Canned Corn Kernels 125g x 4 pack",
-   "shelfPrice": 2.8,
-   "size": "125g x 4 pack",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "mixedveg|g",
-   "price": 0.28,
-   "product": "Woolworths Essentials Frozen Mixed Vegetables 1kg",
-   "shelfPrice": 2.8,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "mixedveg|ml",
-   "price": 0.28,
-   "product": "Woolworths Essentials Frozen Mixed Vegetables 1kg",
-   "shelfPrice": 2.8,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "potato|each",
-   "price": 0.65,
-   "product": "Woolworths Red Washed Potatoes Bag 2kg",
-   "shelfPrice": 6.5,
-   "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "potato|g",
-   "price": 0.325,
-   "product": "Woolworths Red Washed Potatoes Bag 2kg",
-   "shelfPrice": 6.5,
-   "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "potato|ml",
-   "price": 0.325,
-   "product": "Woolworths Red Washed Potatoes Bag 2kg",
-   "shelfPrice": 6.5,
-   "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "sweetpotato|each",
-   "price": 1.96,
-   "product": "Woolworths Gold Sweet Potatoes Bag 1kg",
-   "shelfPrice": 4.9,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "sweetpotato|g",
-   "price": 0.49,
-   "product": "Woolworths Gold Sweet Potatoes Bag 1kg",
-   "shelfPrice": 4.9,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "sweetpotato|ml",
-   "price": 0.49,
-   "product": "Woolworths Gold Sweet Potatoes Bag 1kg",
-   "shelfPrice": 4.9,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "oliveoil|g",
-   "price": 1.13,
-   "product": "La Gina Extra Virgin Olive Oil 4L",
-   "shelfPrice": 45,
-   "size": "4L",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "oliveoil|ml",
-   "price": 1.13,
-   "product": "La Gina Extra Virgin Olive Oil 4L",
-   "shelfPrice": 45,
-   "size": "4L",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "sesameoil|g",
-   "price": 2.0,
-   "product": "Mr Chen's Pure Sesame Oil 250mL",
-   "shelfPrice": 5,
-   "size": "250mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "sesameoil|ml",
-   "price": 2.0,
-   "product": "Mr Chen's Pure Sesame Oil 250mL",
-   "shelfPrice": 5,
-   "size": "250mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "soy|g",
-   "price": 1.65,
-   "product": "Kikkoman Soy Sauce Reduced Salt 600mL",
-   "shelfPrice": 9.9,
-   "size": "600mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "soy|ml",
-   "price": 1.65,
-   "product": "Kikkoman Soy Sauce Reduced Salt 600mL",
-   "shelfPrice": 9.9,
-   "size": "600mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "honey|g",
-   "price": 0.79,
-   "product": "Cloverdale Pure Honey Pail 1kg",
-   "shelfPrice": 7.9,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "honey|ml",
-   "price": 0.79,
-   "product": "Cloverdale Pure Honey Pail 1kg",
-   "shelfPrice": 7.9,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "mustard|g",
-   "price": 1.3,
-   "product": "Your Condiment Co Dijon Mustard 200g",
-   "shelfPrice": 2.6,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "mustard|ml",
-   "price": 1.3,
-   "product": "Your Condiment Co Dijon Mustard 200g",
-   "shelfPrice": 2.6,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "salsa|g",
-   "price": 0.63,
-   "product": "Woolworths Mild Salsa 300g",
-   "shelfPrice": 1.9,
-   "size": "300g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "salsa|ml",
-   "price": 0.63,
-   "product": "Woolworths Mild Salsa 300g",
-   "shelfPrice": 1.9,
-   "size": "300g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "passata|g",
-   "price": 0.29,
-   "product": "La Gina Italian Tomato Paste Passata 680g",
-   "shelfPrice": 1.95,
-   "size": "680g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "passata|ml",
-   "price": 0.29,
-   "product": "La Gina Italian Tomato Paste Passata 680g",
-   "shelfPrice": 1.95,
-   "size": "680g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "coconutm|g",
-   "price": 0.43,
-   "product": "Woolworths Essentials Coconut Milk 400mL",
-   "shelfPrice": 1.7,
-   "size": "400mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "coconutm|ml",
-   "price": 0.43,
-   "product": "Woolworths Essentials Coconut Milk 400mL",
-   "shelfPrice": 1.7,
-   "size": "400mL",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "peanutbutter|g",
-   "price": 0.64,
-   "product": "Woolworths Smooth Peanut Butter 500g",
-   "shelfPrice": 3.2,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "peanutbutter|ml",
-   "price": 0.64,
-   "product": "Woolworths Smooth Peanut Butter 500g",
-   "shelfPrice": 3.2,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "chias|g",
-   "price": 1.7,
-   "product": "Macro Black Chia Seeds 1kg",
-   "shelfPrice": 17,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "chias|ml",
-   "price": 1.7,
-   "product": "Macro Black Chia Seeds 1kg",
-   "shelfPrice": 17,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "almonds|g",
-   "price": 1.8,
-   "product": "Woolworths Almonds Kernels 750g",
-   "shelfPrice": 13.5,
-   "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "almonds|ml",
-   "price": 1.8,
-   "product": "Woolworths Almonds Kernels 750g",
-   "shelfPrice": 13.5,
-   "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "thigh|g",
-   "price": 0.8,
-   "product": "Woolworths RSPCA Approved Chicken Thigh Cutlets per 180g",
-   "shelfPrice": 8,
-   "size": "per 180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "thigh|ml",
-   "price": 0.8,
-   "product": "Woolworths RSPCA Approved Chicken Thigh Cutlets per 180g",
-   "shelfPrice": 8,
-   "size": "per 180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "fillet|g",
-   "price": 4.375,
-   "product": "Woolworths Cook Salmon Fillets With Miso & Maple Marinade 320g",
-   "shelfPrice": 14,
-   "size": "320g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "woolworths",
-   "key": "fillet|ml",
-   "price": 4.375,
-   "product": "Woolworths Cook Salmon Fillets With Miso & Maple Marinade 320g",
-   "shelfPrice": 14,
-   "size": "320g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1527,7 +1194,7 @@
    "product": "Fresh Whole Cauliflower each",
    "shelfPrice": 4.5,
    "size": "each",
-   "checkedAt": "2026-10-15T08:27:08Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1536,7 +1203,7 @@
    "product": "Fresh Whole Cauliflower each",
    "shelfPrice": 4.5,
    "size": "each",
-   "checkedAt": "2026-10-15T08:27:08Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "woolworths",
@@ -1545,7 +1212,340 @@
    "product": "Fresh Whole Cauliflower each",
    "shelfPrice": 4.5,
    "size": "each",
-   "checkedAt": "2026-10-15T08:27:08Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "beansgreen|g",
+   "price": 1.15,
+   "product": "Woolworths Beanette Pre Pack Punnet 400g",
+   "shelfPrice": 4.6,
+   "size": "400g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "beansgreen|ml",
+   "price": 1.15,
+   "product": "Woolworths Beanette Pre Pack Punnet 400g",
+   "shelfPrice": 4.6,
+   "size": "400g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "peas|g",
+   "price": 0.25,
+   "product": "Woolworths Essentials Frozen Peas 1kg",
+   "shelfPrice": 2.5,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "peas|ml",
+   "price": 0.25,
+   "product": "Woolworths Essentials Frozen Peas 1kg",
+   "shelfPrice": 2.5,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "corn|g",
+   "price": 0.238,
+   "product": "Woolworths Corn Sweet Kernels 420g",
+   "shelfPrice": 1,
+   "size": "420g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "corn|ml",
+   "price": 0.238,
+   "product": "Woolworths Corn Sweet Kernels 420g",
+   "shelfPrice": 1,
+   "size": "420g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "corn|each",
+   "price": 0.7,
+   "product": "Woolworths Canned Corn Kernels 125g x 4 pack",
+   "shelfPrice": 2.8,
+   "size": "125g x 4 pack",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "mixedveg|g",
+   "price": 0.28,
+   "product": "Woolworths Essentials Frozen Mixed Vegetables 1kg",
+   "shelfPrice": 2.8,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "mixedveg|ml",
+   "price": 0.28,
+   "product": "Woolworths Essentials Frozen Mixed Vegetables 1kg",
+   "shelfPrice": 2.8,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "potato|each",
+   "price": 0.65,
+   "product": "Woolworths Red Washed Potatoes Bag 2kg",
+   "shelfPrice": 6.5,
+   "size": "2kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "potato|g",
+   "price": 0.325,
+   "product": "Woolworths Red Washed Potatoes Bag 2kg",
+   "shelfPrice": 6.5,
+   "size": "2kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "potato|ml",
+   "price": 0.325,
+   "product": "Woolworths Red Washed Potatoes Bag 2kg",
+   "shelfPrice": 6.5,
+   "size": "2kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "sweetpotato|each",
+   "price": 1.96,
+   "product": "Woolworths Gold Sweet Potatoes Bag 1kg",
+   "shelfPrice": 4.9,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "sweetpotato|g",
+   "price": 0.49,
+   "product": "Woolworths Gold Sweet Potatoes Bag 1kg",
+   "shelfPrice": 4.9,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "sweetpotato|ml",
+   "price": 0.49,
+   "product": "Woolworths Gold Sweet Potatoes Bag 1kg",
+   "shelfPrice": 4.9,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "oliveoil|g",
+   "price": 1.13,
+   "product": "La Gina Extra Virgin Olive Oil 4L",
+   "shelfPrice": 45,
+   "size": "4L",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "oliveoil|ml",
+   "price": 1.13,
+   "product": "La Gina Extra Virgin Olive Oil 4L",
+   "shelfPrice": 45,
+   "size": "4L",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "sesameoil|g",
+   "price": 2.0,
+   "product": "Mr Chen's Pure Sesame Oil 250mL",
+   "shelfPrice": 5,
+   "size": "250mL",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "sesameoil|ml",
+   "price": 2.0,
+   "product": "Mr Chen's Pure Sesame Oil 250mL",
+   "shelfPrice": 5,
+   "size": "250mL",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "soy|g",
+   "price": 1.65,
+   "product": "Kikkoman Soy Sauce Reduced Salt 600mL",
+   "shelfPrice": 9.9,
+   "size": "600mL",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "soy|ml",
+   "price": 1.65,
+   "product": "Kikkoman Soy Sauce Reduced Salt 600mL",
+   "shelfPrice": 9.9,
+   "size": "600mL",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "honey|g",
+   "price": 0.79,
+   "product": "Cloverdale Pure Honey Pail 1kg",
+   "shelfPrice": 7.9,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "honey|ml",
+   "price": 0.79,
+   "product": "Cloverdale Pure Honey Pail 1kg",
+   "shelfPrice": 7.9,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "mustard|g",
+   "price": 1.3,
+   "product": "Your Condiment Co Dijon Mustard 200g",
+   "shelfPrice": 2.6,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "mustard|ml",
+   "price": 1.3,
+   "product": "Your Condiment Co Dijon Mustard 200g",
+   "shelfPrice": 2.6,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "salsa|g",
+   "price": 0.63,
+   "product": "Woolworths Mild Salsa 300g",
+   "shelfPrice": 1.9,
+   "size": "300g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "salsa|ml",
+   "price": 0.63,
+   "product": "Woolworths Mild Salsa 300g",
+   "shelfPrice": 1.9,
+   "size": "300g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "passata|g",
+   "price": 0.29,
+   "product": "La Gina Italian Tomato Paste Passata 680g",
+   "shelfPrice": 1.95,
+   "size": "680g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "passata|ml",
+   "price": 0.29,
+   "product": "La Gina Italian Tomato Paste Passata 680g",
+   "shelfPrice": 1.95,
+   "size": "680g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "coconutm|g",
+   "price": 0.43,
+   "product": "Woolworths Essentials Coconut Milk 400mL",
+   "shelfPrice": 1.7,
+   "size": "400mL",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "coconutm|ml",
+   "price": 0.43,
+   "product": "Woolworths Essentials Coconut Milk 400mL",
+   "shelfPrice": 1.7,
+   "size": "400mL",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "peanutbutter|g",
+   "price": 0.64,
+   "product": "Woolworths Smooth Peanut Butter 500g",
+   "shelfPrice": 3.2,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "peanutbutter|ml",
+   "price": 0.64,
+   "product": "Woolworths Smooth Peanut Butter 500g",
+   "shelfPrice": 3.2,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "chias|g",
+   "price": 1.7,
+   "product": "Macro Black Chia Seeds 1kg",
+   "shelfPrice": 17,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "chias|ml",
+   "price": 1.7,
+   "product": "Macro Black Chia Seeds 1kg",
+   "shelfPrice": 17,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "almonds|g",
+   "price": 1.8,
+   "product": "Woolworths Almonds Kernels 750g",
+   "shelfPrice": 13.5,
+   "size": "750g",
+   "checkedAt": "2026-10-15T08:43:00Z"
+  },
+  {
+   "storeId": "woolworths",
+   "key": "almonds|ml",
+   "price": 1.8,
+   "product": "Woolworths Almonds Kernels 750g",
+   "shelfPrice": 13.5,
+   "size": "750g",
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "coles",
@@ -1662,7 +1662,7 @@
    "product": "Safcol Salmon Premium",
    "shelfPrice": 5,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1671,7 +1671,7 @@
    "product": "Safcol Salmon Premium",
    "shelfPrice": 5,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1680,7 +1680,7 @@
    "product": "Steggles Turkey Mince",
    "shelfPrice": 8,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1689,7 +1689,7 @@
    "product": "Steggles Turkey Mince",
    "shelfPrice": 8,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1698,7 +1698,7 @@
    "product": "IGA Lean 5 Star Beef Mince",
    "shelfPrice": 10,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1707,7 +1707,7 @@
    "product": "IGA Lean 5 Star Beef Mince",
    "shelfPrice": 10,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1716,7 +1716,7 @@
    "product": "Global Seafoods Prawn Ring",
    "shelfPrice": 14,
    "size": "255g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1725,7 +1725,7 @@
    "product": "Global Seafoods Prawn Ring",
    "shelfPrice": 14,
    "size": "255g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1734,7 +1734,7 @@
    "product": "Safcol Salmon Premium",
    "shelfPrice": 5,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1743,7 +1743,7 @@
    "product": "Safcol Salmon Premium",
    "shelfPrice": 5,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1752,7 +1752,7 @@
    "product": "Ally Pink Salmon",
    "shelfPrice": 8,
    "size": "415g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1761,7 +1761,7 @@
    "product": "Ally Pink Salmon",
    "shelfPrice": 8,
    "size": "415g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1770,7 +1770,7 @@
    "product": "Black & Gold Tuna Chunks In Springwater",
    "shelfPrice": 3.3,
    "size": "425g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1779,7 +1779,7 @@
    "product": "Black & Gold Tuna Chunks In Springwater",
    "shelfPrice": 3.3,
    "size": "425g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1788,7 +1788,7 @@
    "product": "Safcol Sardines In Springwater",
    "shelfPrice": 2.1,
    "size": "110g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1797,7 +1797,7 @@
    "product": "Safcol Sardines In Springwater",
    "shelfPrice": 2.1,
    "size": "110g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1806,7 +1806,7 @@
    "product": "Community Co Jumbo Free Range Eggs 18 Pack",
    "shelfPrice": 9.4,
    "size": "900g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1815,7 +1815,7 @@
    "product": "Community Co Jumbo Free Range Eggs 18 Pack",
    "shelfPrice": 9.4,
    "size": "900g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1824,7 +1824,7 @@
    "product": "Community Co Jumbo Free Range Eggs 18 Pack",
    "shelfPrice": 9.4,
    "size": "900g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1833,7 +1833,7 @@
    "product": "Bulla Original Cottage Cheese",
    "shelfPrice": 8,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1842,7 +1842,7 @@
    "product": "Bulla Original Cottage Cheese",
    "shelfPrice": 8,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1851,7 +1851,7 @@
    "product": "Farmers Union Greek Style Yoghurt",
    "shelfPrice": 7.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1860,7 +1860,7 @@
    "product": "Farmers Union Greek Style Yoghurt",
    "shelfPrice": 7.5,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1869,7 +1869,7 @@
    "product": "Green Valley Dairy Yoghurt Natural",
    "shelfPrice": 14.99,
    "size": "5kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1878,7 +1878,7 @@
    "product": "Green Valley Dairy Yoghurt Natural",
    "shelfPrice": 14.99,
    "size": "5kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1887,7 +1887,7 @@
    "product": "Community Co Lite Milk",
    "shelfPrice": 3.55,
    "size": "2l",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1896,7 +1896,7 @@
    "product": "Community Co Lite Milk",
    "shelfPrice": 3.55,
    "size": "2l",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1905,7 +1905,7 @@
    "product": "Black & Gold Rolled Oats",
    "shelfPrice": 1.7,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1914,7 +1914,7 @@
    "product": "Black & Gold Rolled Oats",
    "shelfPrice": 1.7,
    "size": "750g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1923,7 +1923,7 @@
    "product": "Black & Gold Long Grain Rice",
    "shelfPrice": 3.6,
    "size": "2kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1932,7 +1932,7 @@
    "product": "Black & Gold Long Grain Rice",
    "shelfPrice": 3.6,
    "size": "2kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1941,7 +1941,7 @@
    "product": "San Remo Spaghetti Wholemeal Pasta",
    "shelfPrice": 2.95,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1950,7 +1950,7 @@
    "product": "San Remo Spaghetti Wholemeal Pasta",
    "shelfPrice": 2.95,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1959,7 +1959,7 @@
    "product": "Mighty Soft Wholemeal Thick Tasty Bread",
    "shelfPrice": 3.9,
    "size": "650g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1968,7 +1968,7 @@
    "product": "Mighty Soft Wholemeal Thick Tasty Bread",
    "shelfPrice": 3.9,
    "size": "650g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1977,7 +1977,7 @@
    "product": "Mighty Soft Wholemeal Thick Tasty Bread",
    "shelfPrice": 3.9,
    "size": "650g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1986,7 +1986,7 @@
    "product": "SunRice Thin Rice Cakes Tomato & Basil",
    "shelfPrice": 2.3,
    "size": "160g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -1995,7 +1995,7 @@
    "product": "SunRice Thin Rice Cakes Tomato & Basil",
    "shelfPrice": 2.3,
    "size": "160g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2004,7 +2004,7 @@
    "product": "SunRice Thin Rice Cakes Tomato & Basil",
    "shelfPrice": 2.3,
    "size": "160g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2013,7 +2013,7 @@
    "product": "Krummies Breadcrumbs",
    "shelfPrice": 3.1,
    "size": "375g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2022,7 +2022,7 @@
    "product": "Krummies Breadcrumbs",
    "shelfPrice": 3.1,
    "size": "375g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2031,7 +2031,7 @@
    "product": "Old El Paso Black Beans",
    "shelfPrice": 4.5,
    "size": "425g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2040,7 +2040,7 @@
    "product": "Old El Paso Black Beans",
    "shelfPrice": 4.5,
    "size": "425g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2049,7 +2049,7 @@
    "product": "Edgell Kidney Beans Red",
    "shelfPrice": 1.7,
    "size": "400g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2058,7 +2058,7 @@
    "product": "Edgell Kidney Beans Red",
    "shelfPrice": 1.7,
    "size": "400g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2067,7 +2067,7 @@
    "product": "Bananas",
    "shelfPrice": 1.0782,
    "size": "180g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2076,7 +2076,7 @@
    "product": "Bananas",
    "shelfPrice": 1.0782,
    "size": "180g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2085,7 +2085,7 @@
    "product": "Bananas",
    "shelfPrice": 1.0782,
    "size": "180g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2094,7 +2094,7 @@
    "product": "Pink Lady Apples",
    "shelfPrice": 1.398,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2103,7 +2103,7 @@
    "product": "Pink Lady Apples",
    "shelfPrice": 1.398,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2112,7 +2112,7 @@
    "product": "Pink Lady Apples",
    "shelfPrice": 1.398,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2121,7 +2121,7 @@
    "product": "Navel Oranges",
    "shelfPrice": 1.0374,
    "size": "260g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2130,7 +2130,7 @@
    "product": "Navel Oranges",
    "shelfPrice": 1.0374,
    "size": "260g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2139,7 +2139,7 @@
    "product": "Navel Oranges",
    "shelfPrice": 1.0374,
    "size": "260g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2148,7 +2148,7 @@
    "product": "Limes",
    "shelfPrice": 1.3491,
    "size": "90g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2157,7 +2157,7 @@
    "product": "Limes",
    "shelfPrice": 1.3491,
    "size": "90g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2166,7 +2166,7 @@
    "product": "Limes",
    "shelfPrice": 1.3491,
    "size": "90g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2175,7 +2175,7 @@
    "product": "Prepack Lemons",
    "shelfPrice": 3.49,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2184,7 +2184,7 @@
    "product": "Prepack Lemons",
    "shelfPrice": 3.49,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2193,7 +2193,7 @@
    "product": "Blueberry Punnet",
    "shelfPrice": 3.99,
    "size": "125g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2202,7 +2202,7 @@
    "product": "Blueberry Punnet",
    "shelfPrice": 3.99,
    "size": "125g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2211,7 +2211,7 @@
    "product": "Creative Gourmet Mix Berries",
    "shelfPrice": 10,
    "size": "900g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2220,7 +2220,7 @@
    "product": "Creative Gourmet Mix Berries",
    "shelfPrice": 10,
    "size": "900g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2229,7 +2229,7 @@
    "product": "Gourmet Tomatoes",
    "shelfPrice": 0.7689,
    "size": "110g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2238,7 +2238,7 @@
    "product": "Gourmet Tomatoes",
    "shelfPrice": 0.7689,
    "size": "110g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2247,7 +2247,7 @@
    "product": "Gourmet Tomatoes",
    "shelfPrice": 0.7689,
    "size": "110g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2256,7 +2256,7 @@
    "product": "Prepack Capsicum",
    "shelfPrice": 4.99,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2265,7 +2265,7 @@
    "product": "Prepack Capsicum",
    "shelfPrice": 4.99,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2274,7 +2274,7 @@
    "product": "Prepack Capsicum",
    "shelfPrice": 4.99,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2283,7 +2283,7 @@
    "product": "Green Zucchini",
    "shelfPrice": 1.598,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2292,7 +2292,7 @@
    "product": "Green Zucchini",
    "shelfPrice": 1.598,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2301,7 +2301,7 @@
    "product": "Green Zucchini",
    "shelfPrice": 1.598,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2310,7 +2310,7 @@
    "product": "Lebanese Cucumbers",
    "shelfPrice": 0.2786,
    "size": "140g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2319,7 +2319,7 @@
    "product": "Lebanese Cucumbers",
    "shelfPrice": 0.2786,
    "size": "140g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2328,7 +2328,7 @@
    "product": "Lebanese Cucumbers",
    "shelfPrice": 0.2786,
    "size": "140g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2337,7 +2337,7 @@
    "product": "Carrots",
    "shelfPrice": 0.5083,
    "size": "170g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2346,7 +2346,7 @@
    "product": "Carrots",
    "shelfPrice": 0.5083,
    "size": "170g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2355,7 +2355,7 @@
    "product": "Carrots",
    "shelfPrice": 0.5083,
    "size": "170g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2364,7 +2364,7 @@
    "product": "Brown Onion",
    "shelfPrice": 0.7182,
    "size": "180g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2373,7 +2373,7 @@
    "product": "Brown Onion",
    "shelfPrice": 0.7182,
    "size": "180g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2382,7 +2382,7 @@
    "product": "Brown Onion",
    "shelfPrice": 0.7182,
    "size": "180g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2391,7 +2391,7 @@
    "product": "Red Onion",
    "shelfPrice": 1.198,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2400,7 +2400,7 @@
    "product": "Red Onion",
    "shelfPrice": 1.198,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2409,7 +2409,7 @@
    "product": "Red Onion",
    "shelfPrice": 1.198,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2418,7 +2418,7 @@
    "product": "Garlic Bulb",
    "shelfPrice": 1.3993,
    "size": "70g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2427,7 +2427,7 @@
    "product": "Garlic Bulb",
    "shelfPrice": 1.3993,
    "size": "70g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2436,7 +2436,7 @@
    "product": "Garlic Bulb",
    "shelfPrice": 1.3993,
    "size": "70g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2445,7 +2445,7 @@
    "product": "Ginger",
    "shelfPrice": 4.1988,
    "size": "120g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2454,7 +2454,7 @@
    "product": "Ginger",
    "shelfPrice": 4.1988,
    "size": "120g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2463,7 +2463,7 @@
    "product": "Mushroom Cups Loose",
    "shelfPrice": 14.99,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2472,7 +2472,7 @@
    "product": "Mushroom Cups Loose",
    "shelfPrice": 14.99,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2481,7 +2481,7 @@
    "product": "Broccoli Floret",
    "shelfPrice": 2.3766,
    "size": "340g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2490,7 +2490,7 @@
    "product": "Broccoli Floret",
    "shelfPrice": 2.3766,
    "size": "340g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2499,7 +2499,7 @@
    "product": "Broccoli Floret",
    "shelfPrice": 2.3766,
    "size": "340g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2508,7 +2508,7 @@
    "product": "Green Beans",
    "shelfPrice": 3.9975,
    "size": "250g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2517,7 +2517,7 @@
    "product": "Green Beans",
    "shelfPrice": 3.9975,
    "size": "250g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2526,7 +2526,7 @@
    "product": "Black & Gold Peas",
    "shelfPrice": 2,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2535,7 +2535,7 @@
    "product": "Black & Gold Peas",
    "shelfPrice": 2,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2544,7 +2544,7 @@
    "product": "Black & Gold Corn Kernels",
    "shelfPrice": 2.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2553,7 +2553,7 @@
    "product": "Black & Gold Corn Kernels",
    "shelfPrice": 2.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2562,7 +2562,7 @@
    "product": "Black & Gold Mixed Vegetables",
    "shelfPrice": 2.8,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2571,7 +2571,7 @@
    "product": "Black & Gold Mixed Vegetables",
    "shelfPrice": 2.8,
    "size": "1kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2580,7 +2580,7 @@
    "product": "Less Carb Washed Potatoes",
    "shelfPrice": 5.5,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2589,7 +2589,7 @@
    "product": "Less Carb Washed Potatoes",
    "shelfPrice": 5.5,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2598,7 +2598,7 @@
    "product": "Less Carb Washed Potatoes",
    "shelfPrice": 5.5,
    "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2607,7 +2607,7 @@
    "product": "Gold Sweet Potatoes",
    "shelfPrice": 1.7465,
    "size": "350g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2616,7 +2616,7 @@
    "product": "Gold Sweet Potatoes",
    "shelfPrice": 1.7465,
    "size": "350g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2625,7 +2625,7 @@
    "product": "Gold Sweet Potatoes",
    "shelfPrice": 1.7465,
    "size": "350g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2634,7 +2634,7 @@
    "product": "Moro Extra Virgin Olive Oil",
    "shelfPrice": 54.99,
    "size": "4l",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2643,7 +2643,7 @@
    "product": "Moro Extra Virgin Olive Oil",
    "shelfPrice": 54.99,
    "size": "4l",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2652,7 +2652,7 @@
    "product": "Ayam Pure Sesame Oil",
    "shelfPrice": 6.5,
    "size": "210ml",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2661,7 +2661,7 @@
    "product": "Ayam Pure Sesame Oil",
    "shelfPrice": 6.5,
    "size": "210ml",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2670,7 +2670,7 @@
    "product": "Black & Gold Soy Sauce",
    "shelfPrice": 1.9,
    "size": "500ml",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2679,7 +2679,7 @@
    "product": "Black & Gold Soy Sauce",
    "shelfPrice": 1.9,
    "size": "500ml",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2688,7 +2688,7 @@
    "product": "Community Co Honey Jar",
    "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2697,7 +2697,7 @@
    "product": "Community Co Honey Jar",
    "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2706,7 +2706,7 @@
    "product": "MasterFoods Mustard Mild American Squeeze",
    "shelfPrice": 5.8,
    "size": "550g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2715,7 +2715,7 @@
    "product": "MasterFoods Mustard Mild American Squeeze",
    "shelfPrice": 5.8,
    "size": "550g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2724,7 +2724,7 @@
    "product": "Doritos Mild Salsa",
    "shelfPrice": 2.75,
    "size": "300g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2733,7 +2733,7 @@
    "product": "Doritos Mild Salsa",
    "shelfPrice": 2.75,
    "size": "300g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2742,7 +2742,7 @@
    "product": "Mutti Passata Tomato Puree",
    "shelfPrice": 4.8,
    "size": "700g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2751,7 +2751,7 @@
    "product": "Mutti Passata Tomato Puree",
    "shelfPrice": 4.8,
    "size": "700g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2760,7 +2760,7 @@
    "product": "Australia's Own Organic Coconut Milk Unsweetened",
    "shelfPrice": 2.5,
    "size": "1l",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2769,7 +2769,7 @@
    "product": "Australia's Own Organic Coconut Milk Unsweetened",
    "shelfPrice": 2.5,
    "size": "1l",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2778,7 +2778,7 @@
    "product": "Bega Crunchy Peanut Butter",
    "shelfPrice": 7.4,
    "size": "755g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2787,7 +2787,7 @@
    "product": "Bega Crunchy Peanut Butter",
    "shelfPrice": 7.4,
    "size": "755g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2796,7 +2796,7 @@
    "product": "Community Co Aussie Black Chia Seeds",
    "shelfPrice": 6,
    "size": "350g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   },
   {
    "storeId": "iga",
@@ -2805,7 +2805,7 @@
    "product": "Community Co Aussie Black Chia Seeds",
    "shelfPrice": 6,
    "size": "350g",
-   "checkedAt": "2026-10-15T08:38:27Z"
+   "checkedAt": "2026-10-15T08:43:00Z"
   }
  ]
 }
