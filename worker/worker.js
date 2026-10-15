@@ -30,7 +30,7 @@ export default {
     if (!q) return json({ error: 'Missing search' }, 400, cors);
 
     const cache = caches.default;
-    const cacheKey = new Request(`https://cache.local/search?q=${encodeURIComponent(q.toLowerCase())}&offset=${offset}`);
+    const cacheKey = new Request(`https://cache.local/v2/search?q=${encodeURIComponent(q.toLowerCase())}&offset=${offset}`);
     const hit = await cache.match(cacheKey);
     if (hit) return withHeaders(hit, cors);
 
@@ -169,7 +169,9 @@ function text(v) {
 function steps(instr) {
   if (typeof instr === 'string') return decode(instr.replace(/<[^>]+>/g, '\n')).split(/\r?\n+/).map(s => s.trim()).filter(Boolean);
   if (!Array.isArray(instr)) return [];
-  return instr.flatMap(s => (s && s['@type'] === 'HowToSection' ? steps(s.itemListElement || []) : [text(s)])).filter(Boolean);
+  // HowToStep objects carry both a 'url' (anchor link) and the step 'text'; use the text.
+  return instr.flatMap(s => (s && s['@type'] === 'HowToSection' ? steps(s.itemListElement || [])
+    : [s && typeof s === 'object' ? text(s.text || s.name || '') : text(s)])).filter(Boolean);
 }
 
 const QTY = String.raw`(?:\d+\s+\d+/\d+|\d+/\d+|\d+(?:\.\d+)?|[½¼¾⅓⅔])(?:\s*[-–]\s*\d+(?:\.\d+)?)?`;
