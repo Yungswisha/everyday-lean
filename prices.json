@@ -1,26 +1,26 @@
 {
  "version": 1,
- "updatedAt": "2026-10-15T08:27:08Z",
+ "updatedAt": "2026-10-15T08:35:39Z",
  "note": "AUD per 100 g (|g), per 100 mL (|ml) or per item (|each). Prices may vary based on location.",
  "stores": {
   "woolworths": {
-   "ok": true,
-   "updated": 3,
-   "keptPrevious": 166,
-   "failedSearches": 0,
-   "error": null
-  },
-  "coles": {
    "ok": false,
    "updated": 0,
+   "keptPrevious": 169,
+   "failedSearches": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  "coles": {
+   "ok": true,
+   "updated": 10,
    "keptPrevious": 0,
    "failedSearches": 0,
    "error": "Coles bot protection blocked the request"
   },
   "iga": {
-   "ok": false,
-   "updated": 0,
-   "keptPrevious": 128,
+   "ok": true,
+   "updated": 126,
+   "keptPrevious": 2,
    "failedSearches": 0,
    "error": null
   }
@@ -1548,1138 +1548,112 @@
    "checkedAt": "2026-10-15T08:27:08Z"
   },
   {
-   "storeId": "iga",
+   "storeId": "coles",
    "key": "rawturkey|g",
-   "price": 1.6,
+   "price": 1.3,
    "product": "Steggles Turkey Mince",
-   "shelfPrice": 8,
+   "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:35:39Z"
   },
   {
-   "storeId": "iga",
+   "storeId": "coles",
    "key": "rawturkey|ml",
-   "price": 1.6,
+   "price": 1.3,
    "product": "Steggles Turkey Mince",
-   "shelfPrice": 8,
+   "shelfPrice": 6.5,
    "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:35:39Z"
   },
   {
-   "storeId": "iga",
+   "storeId": "coles",
    "key": "rawbeef|g",
-   "price": 2.0,
-   "product": "IGA Lean 5 Star Beef Mince",
-   "shelfPrice": 10,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "price": 1.938,
+   "product": "Coles No Added Hormone Beef Lean Mince",
+   "shelfPrice": 15.5,
+   "size": "800g",
+   "checkedAt": "2026-10-15T08:35:39Z"
   },
   {
-   "storeId": "iga",
+   "storeId": "coles",
    "key": "rawbeef|ml",
-   "price": 2.0,
-   "product": "IGA Lean 5 Star Beef Mince",
-   "shelfPrice": 10,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "prawns|g",
-   "price": 5.49,
-   "product": "Global Seafoods Prawn Ring",
-   "shelfPrice": 14,
-   "size": "255g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "prawns|ml",
-   "price": 5.49,
-   "product": "Global Seafoods Prawn Ring",
-   "shelfPrice": 14,
-   "size": "255g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "salmonraw|g",
-   "price": 2.5,
-   "product": "Safcol Salmon Premium",
-   "shelfPrice": 5,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "salmonraw|ml",
-   "price": 2.5,
-   "product": "Safcol Salmon Premium",
-   "shelfPrice": 5,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "salmontin|g",
-   "price": 1.93,
-   "product": "Ally Pink Salmon",
-   "shelfPrice": 8,
-   "size": "415g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "salmontin|ml",
-   "price": 1.93,
-   "product": "Ally Pink Salmon",
-   "shelfPrice": 8,
-   "size": "415g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "tuna|g",
-   "price": 0.78,
-   "product": "Black & Gold Tuna Chunks In Springwater",
-   "shelfPrice": 3.3,
-   "size": "425g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "tuna|ml",
-   "price": 0.78,
-   "product": "Black & Gold Tuna Chunks In Springwater",
-   "shelfPrice": 3.3,
-   "size": "425g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sardines|g",
-   "price": 1.91,
-   "product": "Safcol Sardines In Springwater",
-   "shelfPrice": 2.1,
-   "size": "110g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sardines|ml",
-   "price": 1.91,
-   "product": "Safcol Sardines In Springwater",
-   "shelfPrice": 2.1,
-   "size": "110g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "eggs|g",
-   "price": 1.04,
-   "product": "Community Co Jumbo Free Range Eggs 18 Pack",
-   "shelfPrice": 9.4,
-   "size": "900g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "eggs|ml",
-   "price": 1.04,
-   "product": "Community Co Jumbo Free Range Eggs 18 Pack",
-   "shelfPrice": 9.4,
-   "size": "900g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "eggs|each",
-   "price": 0.5222,
-   "product": "Community Co Jumbo Free Range Eggs 18 Pack",
-   "shelfPrice": 9.4,
-   "size": "900g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "cottage|g",
-   "price": 1.6,
-   "product": "Bulla Original Cottage Cheese",
-   "shelfPrice": 8,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "cottage|ml",
-   "price": 1.6,
-   "product": "Bulla Original Cottage Cheese",
-   "shelfPrice": 8,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "yoghurt0|g",
-   "price": 0.75,
-   "product": "Farmers Union Greek Style Yoghurt",
-   "shelfPrice": 7.5,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "yoghurt0|ml",
-   "price": 0.75,
-   "product": "Farmers Union Greek Style Yoghurt",
-   "shelfPrice": 7.5,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "yoghurtplain|g",
-   "price": 0.3,
-   "product": "Green Valley Dairy Yoghurt Natural",
-   "shelfPrice": 14.99,
-   "size": "5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "yoghurtplain|ml",
-   "price": 0.3,
-   "product": "Green Valley Dairy Yoghurt Natural",
-   "shelfPrice": 14.99,
-   "size": "5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "milk|g",
-   "price": 0.178,
-   "product": "Community Co Lite Milk",
-   "shelfPrice": 3.55,
-   "size": "2l",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "milk|ml",
-   "price": 0.178,
-   "product": "Community Co Lite Milk",
-   "shelfPrice": 3.55,
-   "size": "2l",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "oats|g",
-   "price": 0.23,
-   "product": "Black & Gold Rolled Oats",
-   "shelfPrice": 1.7,
-   "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "oats|ml",
-   "price": 0.23,
-   "product": "Black & Gold Rolled Oats",
-   "shelfPrice": 1.7,
-   "size": "750g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "rice|g",
-   "price": 0.072,
-   "product": "Black & Gold Long Grain Rice",
-   "shelfPrice": 3.6,
-   "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "rice|ml",
-   "price": 0.072,
-   "product": "Black & Gold Long Grain Rice",
-   "shelfPrice": 3.6,
-   "size": "2kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "pasta|g",
-   "price": 0.2537,
-   "product": "San Remo Spaghetti Wholemeal Pasta",
-   "shelfPrice": 2.95,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "pasta|ml",
-   "price": 0.2537,
-   "product": "San Remo Spaghetti Wholemeal Pasta",
-   "shelfPrice": 2.95,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "bread|g",
-   "price": 0.6,
-   "product": "Mighty Soft Wholemeal Thick Tasty Bread",
-   "shelfPrice": 3.9,
-   "size": "650g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "bread|ml",
-   "price": 0.6,
-   "product": "Mighty Soft Wholemeal Thick Tasty Bread",
-   "shelfPrice": 3.9,
-   "size": "650g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "bread|each",
-   "price": 0.228,
-   "product": "Mighty Soft Wholemeal Thick Tasty Bread",
-   "shelfPrice": 3.9,
-   "size": "650g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "ricecake|g",
-   "price": 1.44,
-   "product": "SunRice Thin Rice Cakes Tomato & Basil",
-   "shelfPrice": 2.3,
-   "size": "160g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "ricecake|ml",
-   "price": 1.44,
-   "product": "SunRice Thin Rice Cakes Tomato & Basil",
-   "shelfPrice": 2.3,
-   "size": "160g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "ricecake|each",
-   "price": 0.1296,
-   "product": "SunRice Thin Rice Cakes Tomato & Basil",
-   "shelfPrice": 2.3,
-   "size": "160g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "breadcrumb|g",
-   "price": 0.83,
-   "product": "Krummies Breadcrumbs",
-   "shelfPrice": 3.1,
-   "size": "375g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "breadcrumb|ml",
-   "price": 0.83,
-   "product": "Krummies Breadcrumbs",
-   "shelfPrice": 3.1,
-   "size": "375g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "blackbeans|g",
-   "price": 1.06,
-   "product": "Old El Paso Black Beans",
-   "shelfPrice": 4.5,
-   "size": "425g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "blackbeans|ml",
-   "price": 1.06,
-   "product": "Old El Paso Black Beans",
-   "shelfPrice": 4.5,
-   "size": "425g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "kidneybeans|g",
-   "price": 0.43,
-   "product": "Edgell Kidney Beans Red",
-   "shelfPrice": 1.7,
-   "size": "400g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "kidneybeans|ml",
-   "price": 0.43,
-   "product": "Edgell Kidney Beans Red",
-   "shelfPrice": 1.7,
-   "size": "400g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "banana|g",
-   "price": 0.599,
-   "product": "Bananas",
-   "shelfPrice": 1.0782,
-   "size": "180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "banana|ml",
-   "price": 0.599,
-   "product": "Bananas",
-   "shelfPrice": 1.0782,
-   "size": "180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "banana|each",
-   "price": 0.7188,
-   "product": "Bananas",
-   "shelfPrice": 1.0782,
-   "size": "180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "apple|g",
-   "price": 0.699,
-   "product": "Pink Lady Apples",
-   "shelfPrice": 1.398,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "apple|ml",
-   "price": 0.699,
-   "product": "Pink Lady Apples",
-   "shelfPrice": 1.398,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "apple|each",
-   "price": 1.2582,
-   "product": "Pink Lady Apples",
-   "shelfPrice": 1.398,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "orange|g",
-   "price": 0.399,
-   "product": "Navel Oranges",
-   "shelfPrice": 1.0374,
-   "size": "260g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "orange|ml",
-   "price": 0.399,
-   "product": "Navel Oranges",
-   "shelfPrice": 1.0374,
-   "size": "260g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "orange|each",
-   "price": 0.798,
-   "product": "Navel Oranges",
-   "shelfPrice": 1.0374,
-   "size": "260g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "lime|g",
-   "price": 1.499,
-   "product": "Limes",
-   "shelfPrice": 1.3491,
-   "size": "90g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "lime|ml",
-   "price": 1.499,
-   "product": "Limes",
-   "shelfPrice": 1.3491,
-   "size": "90g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "lime|each",
-   "price": 0.9744,
-   "product": "Limes",
-   "shelfPrice": 1.3491,
-   "size": "90g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "lemonjuice|g",
-   "price": 0.8725,
-   "product": "Prepack Lemons",
-   "shelfPrice": 3.49,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "lemonjuice|ml",
-   "price": 0.8725,
-   "product": "Prepack Lemons",
-   "shelfPrice": 3.49,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "blueberries|g",
-   "price": 3.19,
-   "product": "Blueberry Punnet",
-   "shelfPrice": 3.99,
-   "size": "125g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "blueberries|ml",
-   "price": 3.19,
-   "product": "Blueberry Punnet",
-   "shelfPrice": 3.99,
-   "size": "125g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "berries|g",
-   "price": 1.11,
-   "product": "Creative Gourmet Mix Berries",
-   "shelfPrice": 10,
-   "size": "900g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "berries|ml",
-   "price": 1.11,
-   "product": "Creative Gourmet Mix Berries",
-   "shelfPrice": 10,
-   "size": "900g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "tomato|g",
-   "price": 0.699,
-   "product": "Gourmet Tomatoes",
-   "shelfPrice": 0.7689,
-   "size": "110g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "tomato|ml",
-   "price": 0.699,
-   "product": "Gourmet Tomatoes",
-   "shelfPrice": 0.7689,
-   "size": "110g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "tomato|each",
-   "price": 0.8388,
-   "product": "Gourmet Tomatoes",
-   "shelfPrice": 0.7689,
-   "size": "110g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "capsicum|g",
-   "price": 0.499,
-   "product": "Prepack Capsicum",
-   "shelfPrice": 4.99,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "capsicum|ml",
-   "price": 0.499,
-   "product": "Prepack Capsicum",
-   "shelfPrice": 4.99,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "capsicum|each",
-   "price": 0.8982,
-   "product": "Prepack Capsicum",
-   "shelfPrice": 4.99,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "zucchini|g",
-   "price": 0.799,
-   "product": "Green Zucchini",
-   "shelfPrice": 1.598,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "zucchini|ml",
-   "price": 0.799,
-   "product": "Green Zucchini",
-   "shelfPrice": 1.598,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "zucchini|each",
-   "price": 1.598,
-   "product": "Green Zucchini",
-   "shelfPrice": 1.598,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "cucumber|g",
-   "price": 0.199,
-   "product": "Lebanese Cucumbers",
-   "shelfPrice": 0.2786,
-   "size": "140g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "cucumber|ml",
-   "price": 0.199,
-   "product": "Lebanese Cucumbers",
-   "shelfPrice": 0.2786,
-   "size": "140g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "cucumber|each",
-   "price": 0.2985,
-   "product": "Lebanese Cucumbers",
-   "shelfPrice": 0.2786,
-   "size": "140g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "carrot|g",
-   "price": 0.299,
-   "product": "Carrots",
-   "shelfPrice": 0.5083,
-   "size": "170g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "carrot|ml",
-   "price": 0.299,
-   "product": "Carrots",
-   "shelfPrice": 0.5083,
-   "size": "170g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "carrot|each",
-   "price": 0.3588,
-   "product": "Carrots",
-   "shelfPrice": 0.5083,
-   "size": "170g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "onion|g",
-   "price": 0.399,
-   "product": "Brown Onion",
-   "shelfPrice": 0.7182,
-   "size": "180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "onion|ml",
-   "price": 0.399,
-   "product": "Brown Onion",
-   "shelfPrice": 0.7182,
-   "size": "180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "onion|each",
-   "price": 0.5985,
-   "product": "Brown Onion",
-   "shelfPrice": 0.7182,
-   "size": "180g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "redonion|g",
-   "price": 0.599,
-   "product": "Red Onion",
-   "shelfPrice": 1.198,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "redonion|ml",
-   "price": 0.599,
-   "product": "Red Onion",
-   "shelfPrice": 1.198,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "redonion|each",
-   "price": 0.8985,
-   "product": "Red Onion",
-   "shelfPrice": 1.198,
-   "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "garlic|g",
-   "price": 1.999,
-   "product": "Garlic Bulb",
-   "shelfPrice": 1.3993,
-   "size": "70g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "garlic|ml",
-   "price": 1.999,
-   "product": "Garlic Bulb",
-   "shelfPrice": 1.3993,
-   "size": "70g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "garlic|each",
-   "price": 0.0999,
-   "product": "Garlic Bulb",
-   "shelfPrice": 1.3993,
-   "size": "70g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "ginger|g",
-   "price": 3.499,
-   "product": "Ginger",
-   "shelfPrice": 4.1988,
-   "size": "120g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "ginger|ml",
-   "price": 3.499,
-   "product": "Ginger",
-   "shelfPrice": 4.1988,
-   "size": "120g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "mushrooms|g",
-   "price": 1.499,
-   "product": "Mushroom Cups Loose",
-   "shelfPrice": 14.99,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "mushrooms|ml",
-   "price": 1.499,
-   "product": "Mushroom Cups Loose",
-   "shelfPrice": 14.99,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "broccoli|g",
-   "price": 0.699,
-   "product": "Broccoli Floret",
-   "shelfPrice": 2.3766,
-   "size": "340g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "broccoli|ml",
-   "price": 0.699,
-   "product": "Broccoli Floret",
-   "shelfPrice": 2.3766,
-   "size": "340g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "broccoli|each",
-   "price": 2.4465,
-   "product": "Broccoli Floret",
-   "shelfPrice": 2.3766,
-   "size": "340g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "beansgreen|g",
-   "price": 1.599,
-   "product": "Green Beans",
-   "shelfPrice": 3.9975,
-   "size": "250g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "beansgreen|ml",
-   "price": 1.599,
-   "product": "Green Beans",
-   "shelfPrice": 3.9975,
-   "size": "250g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "peas|g",
-   "price": 0.4,
-   "product": "Black & Gold Peas",
-   "shelfPrice": 2,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "peas|ml",
-   "price": 0.4,
-   "product": "Black & Gold Peas",
-   "shelfPrice": 2,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "corn|g",
-   "price": 0.5,
-   "product": "Black & Gold Corn Kernels",
-   "shelfPrice": 2.5,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "corn|ml",
-   "price": 0.5,
-   "product": "Black & Gold Corn Kernels",
-   "shelfPrice": 2.5,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "mixedveg|g",
-   "price": 0.28,
-   "product": "Black & Gold Mixed Vegetables",
-   "shelfPrice": 2.8,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "mixedveg|ml",
-   "price": 0.28,
-   "product": "Black & Gold Mixed Vegetables",
-   "shelfPrice": 2.8,
-   "size": "1kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "potato|g",
-   "price": 0.367,
-   "product": "Less Carb Washed Potatoes",
-   "shelfPrice": 5.5,
-   "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "potato|ml",
-   "price": 0.367,
-   "product": "Less Carb Washed Potatoes",
-   "shelfPrice": 5.5,
-   "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "potato|each",
-   "price": 0.734,
-   "product": "Less Carb Washed Potatoes",
-   "shelfPrice": 5.5,
-   "size": "1.5kg",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sweetpotato|g",
-   "price": 0.499,
-   "product": "Gold Sweet Potatoes",
-   "shelfPrice": 1.7465,
-   "size": "350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sweetpotato|ml",
-   "price": 0.499,
-   "product": "Gold Sweet Potatoes",
-   "shelfPrice": 1.7465,
-   "size": "350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sweetpotato|each",
-   "price": 1.996,
-   "product": "Gold Sweet Potatoes",
-   "shelfPrice": 1.7465,
-   "size": "350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "oliveoil|g",
-   "price": 1.375,
-   "product": "Moro Extra Virgin Olive Oil",
-   "shelfPrice": 54.99,
-   "size": "4l",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "oliveoil|ml",
-   "price": 1.375,
-   "product": "Moro Extra Virgin Olive Oil",
-   "shelfPrice": 54.99,
-   "size": "4l",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sesameoil|g",
-   "price": 3.1,
-   "product": "Ayam Pure Sesame Oil",
-   "shelfPrice": 6.5,
-   "size": "210ml",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "sesameoil|ml",
-   "price": 3.1,
-   "product": "Ayam Pure Sesame Oil",
-   "shelfPrice": 6.5,
-   "size": "210ml",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "soy|g",
-   "price": 0.38,
-   "product": "Black & Gold Soy Sauce",
-   "shelfPrice": 1.9,
-   "size": "500ml",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "soy|ml",
-   "price": 0.38,
-   "product": "Black & Gold Soy Sauce",
-   "shelfPrice": 1.9,
-   "size": "500ml",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "honey|g",
-   "price": 1.3,
-   "product": "Community Co Honey Jar",
-   "shelfPrice": 6.5,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "honey|ml",
-   "price": 1.3,
-   "product": "Community Co Honey Jar",
-   "shelfPrice": 6.5,
-   "size": "500g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "mustard|g",
-   "price": 1.05,
-   "product": "MasterFoods Mustard Mild American Squeeze",
-   "shelfPrice": 5.8,
-   "size": "550g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "mustard|ml",
-   "price": 1.05,
-   "product": "MasterFoods Mustard Mild American Squeeze",
-   "shelfPrice": 5.8,
-   "size": "550g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "salsa|g",
-   "price": 0.92,
-   "product": "Doritos Mild Salsa",
-   "shelfPrice": 2.75,
-   "size": "300g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "salsa|ml",
-   "price": 0.92,
-   "product": "Doritos Mild Salsa",
-   "shelfPrice": 2.75,
-   "size": "300g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "passata|g",
-   "price": 0.69,
-   "product": "Mutti Passata Tomato Puree",
-   "shelfPrice": 4.8,
-   "size": "700g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "passata|ml",
-   "price": 0.69,
-   "product": "Mutti Passata Tomato Puree",
-   "shelfPrice": 4.8,
-   "size": "700g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "coconutm|g",
-   "price": 0.25,
-   "product": "Australia's Own Organic Coconut Milk Unsweetened",
-   "shelfPrice": 2.5,
-   "size": "1l",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "coconutm|ml",
-   "price": 0.25,
-   "product": "Australia's Own Organic Coconut Milk Unsweetened",
-   "shelfPrice": 2.5,
-   "size": "1l",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "peanutbutter|g",
-   "price": 0.98,
-   "product": "Bega Crunchy Peanut Butter",
-   "shelfPrice": 7.4,
-   "size": "755g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "peanutbutter|ml",
-   "price": 0.98,
-   "product": "Bega Crunchy Peanut Butter",
-   "shelfPrice": 7.4,
-   "size": "755g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "chias|g",
-   "price": 1.71,
-   "product": "Community Co Aussie Black Chia Seeds",
-   "shelfPrice": 6,
-   "size": "350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
-  },
-  {
-   "storeId": "iga",
-   "key": "chias|ml",
-   "price": 1.71,
-   "product": "Community Co Aussie Black Chia Seeds",
-   "shelfPrice": 6,
-   "size": "350g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "price": 1.938,
+   "product": "Coles No Added Hormone Beef Lean Mince",
+   "shelfPrice": 15.5,
+   "size": "800g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "chickenraw|g",
+   "price": 0.85,
+   "product": "Coles RSPCA Approved Chicken Breast Fillet Value Pack",
+   "shelfPrice": 17,
+   "size": "approx. 2Kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "chickenraw|ml",
+   "price": 0.85,
+   "product": "Coles RSPCA Approved Chicken Breast Fillet Value Pack",
+   "shelfPrice": 17,
+   "size": "approx. 2Kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "chickencooked|g",
+   "price": 1.1305,
+   "product": "Coles RSPCA Approved Chicken Breast Fillet Value Pack",
+   "shelfPrice": 17,
+   "size": "approx. 2Kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "chickencooked|ml",
+   "price": 1.1305,
+   "product": "Coles RSPCA Approved Chicken Breast Fillet Value Pack",
+   "shelfPrice": 17,
+   "size": "approx. 2Kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "chickenthigh|g",
+   "price": 1.0,
+   "product": "Coles RSPCA Approved Chicken Thigh Cutlets",
+   "shelfPrice": 11,
+   "size": "approx. 1.1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "chickenthigh|ml",
+   "price": 1.0,
+   "product": "Coles RSPCA Approved Chicken Thigh Cutlets",
+   "shelfPrice": 11,
+   "size": "approx. 1.1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "thigh|g",
+   "price": 1.0,
+   "product": "Coles RSPCA Approved Chicken Thigh Cutlets",
+   "shelfPrice": 11,
+   "size": "approx. 1.1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "coles",
+   "key": "thigh|ml",
+   "price": 1.0,
+   "product": "Coles RSPCA Approved Chicken Thigh Cutlets",
+   "shelfPrice": 11,
+   "size": "approx. 1.1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
   },
   {
    "storeId": "iga",
@@ -2688,7 +1662,7 @@
    "product": "Safcol Salmon Premium",
    "shelfPrice": 5,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:35:39Z"
   },
   {
    "storeId": "iga",
@@ -2697,7 +1671,1141 @@
    "product": "Safcol Salmon Premium",
    "shelfPrice": 5,
    "size": "200g",
-   "checkedAt": "2026-10-15T08:24:35Z"
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "rawturkey|g",
+   "price": 1.6,
+   "product": "Steggles Turkey Mince",
+   "shelfPrice": 8,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "rawturkey|ml",
+   "price": 1.6,
+   "product": "Steggles Turkey Mince",
+   "shelfPrice": 8,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "rawbeef|g",
+   "price": 2.0,
+   "product": "IGA Lean 5 Star Beef Mince",
+   "shelfPrice": 10,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "rawbeef|ml",
+   "price": 2.0,
+   "product": "IGA Lean 5 Star Beef Mince",
+   "shelfPrice": 10,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "prawns|g",
+   "price": 5.49,
+   "product": "Global Seafoods Prawn Ring",
+   "shelfPrice": 14,
+   "size": "255g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "prawns|ml",
+   "price": 5.49,
+   "product": "Global Seafoods Prawn Ring",
+   "shelfPrice": 14,
+   "size": "255g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "salmonraw|g",
+   "price": 2.5,
+   "product": "Safcol Salmon Premium",
+   "shelfPrice": 5,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "salmonraw|ml",
+   "price": 2.5,
+   "product": "Safcol Salmon Premium",
+   "shelfPrice": 5,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "salmontin|g",
+   "price": 1.93,
+   "product": "Ally Pink Salmon",
+   "shelfPrice": 8,
+   "size": "415g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "salmontin|ml",
+   "price": 1.93,
+   "product": "Ally Pink Salmon",
+   "shelfPrice": 8,
+   "size": "415g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "tuna|g",
+   "price": 0.78,
+   "product": "Black & Gold Tuna Chunks In Springwater",
+   "shelfPrice": 3.3,
+   "size": "425g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "tuna|ml",
+   "price": 0.78,
+   "product": "Black & Gold Tuna Chunks In Springwater",
+   "shelfPrice": 3.3,
+   "size": "425g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sardines|g",
+   "price": 1.91,
+   "product": "Safcol Sardines In Springwater",
+   "shelfPrice": 2.1,
+   "size": "110g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sardines|ml",
+   "price": 1.91,
+   "product": "Safcol Sardines In Springwater",
+   "shelfPrice": 2.1,
+   "size": "110g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "eggs|g",
+   "price": 1.04,
+   "product": "Community Co Jumbo Free Range Eggs 18 Pack",
+   "shelfPrice": 9.4,
+   "size": "900g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "eggs|ml",
+   "price": 1.04,
+   "product": "Community Co Jumbo Free Range Eggs 18 Pack",
+   "shelfPrice": 9.4,
+   "size": "900g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "eggs|each",
+   "price": 0.5222,
+   "product": "Community Co Jumbo Free Range Eggs 18 Pack",
+   "shelfPrice": 9.4,
+   "size": "900g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "cottage|g",
+   "price": 1.6,
+   "product": "Bulla Original Cottage Cheese",
+   "shelfPrice": 8,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "cottage|ml",
+   "price": 1.6,
+   "product": "Bulla Original Cottage Cheese",
+   "shelfPrice": 8,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "yoghurt0|g",
+   "price": 0.75,
+   "product": "Farmers Union Greek Style Yoghurt",
+   "shelfPrice": 7.5,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "yoghurt0|ml",
+   "price": 0.75,
+   "product": "Farmers Union Greek Style Yoghurt",
+   "shelfPrice": 7.5,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "yoghurtplain|g",
+   "price": 0.3,
+   "product": "Green Valley Dairy Yoghurt Natural",
+   "shelfPrice": 14.99,
+   "size": "5kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "yoghurtplain|ml",
+   "price": 0.3,
+   "product": "Green Valley Dairy Yoghurt Natural",
+   "shelfPrice": 14.99,
+   "size": "5kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "milk|g",
+   "price": 0.178,
+   "product": "Community Co Lite Milk",
+   "shelfPrice": 3.55,
+   "size": "2l",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "milk|ml",
+   "price": 0.178,
+   "product": "Community Co Lite Milk",
+   "shelfPrice": 3.55,
+   "size": "2l",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "oats|g",
+   "price": 0.23,
+   "product": "Black & Gold Rolled Oats",
+   "shelfPrice": 1.7,
+   "size": "750g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "oats|ml",
+   "price": 0.23,
+   "product": "Black & Gold Rolled Oats",
+   "shelfPrice": 1.7,
+   "size": "750g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "rice|g",
+   "price": 0.072,
+   "product": "Black & Gold Long Grain Rice",
+   "shelfPrice": 3.6,
+   "size": "2kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "rice|ml",
+   "price": 0.072,
+   "product": "Black & Gold Long Grain Rice",
+   "shelfPrice": 3.6,
+   "size": "2kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "pasta|g",
+   "price": 0.2537,
+   "product": "San Remo Spaghetti Wholemeal Pasta",
+   "shelfPrice": 2.95,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "pasta|ml",
+   "price": 0.2537,
+   "product": "San Remo Spaghetti Wholemeal Pasta",
+   "shelfPrice": 2.95,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "bread|g",
+   "price": 0.6,
+   "product": "Mighty Soft Wholemeal Thick Tasty Bread",
+   "shelfPrice": 3.9,
+   "size": "650g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "bread|ml",
+   "price": 0.6,
+   "product": "Mighty Soft Wholemeal Thick Tasty Bread",
+   "shelfPrice": 3.9,
+   "size": "650g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "bread|each",
+   "price": 0.228,
+   "product": "Mighty Soft Wholemeal Thick Tasty Bread",
+   "shelfPrice": 3.9,
+   "size": "650g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "ricecake|g",
+   "price": 1.44,
+   "product": "SunRice Thin Rice Cakes Tomato & Basil",
+   "shelfPrice": 2.3,
+   "size": "160g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "ricecake|ml",
+   "price": 1.44,
+   "product": "SunRice Thin Rice Cakes Tomato & Basil",
+   "shelfPrice": 2.3,
+   "size": "160g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "ricecake|each",
+   "price": 0.1296,
+   "product": "SunRice Thin Rice Cakes Tomato & Basil",
+   "shelfPrice": 2.3,
+   "size": "160g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "breadcrumb|g",
+   "price": 0.83,
+   "product": "Krummies Breadcrumbs",
+   "shelfPrice": 3.1,
+   "size": "375g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "breadcrumb|ml",
+   "price": 0.83,
+   "product": "Krummies Breadcrumbs",
+   "shelfPrice": 3.1,
+   "size": "375g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "blackbeans|g",
+   "price": 1.06,
+   "product": "Old El Paso Black Beans",
+   "shelfPrice": 4.5,
+   "size": "425g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "blackbeans|ml",
+   "price": 1.06,
+   "product": "Old El Paso Black Beans",
+   "shelfPrice": 4.5,
+   "size": "425g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "kidneybeans|g",
+   "price": 0.43,
+   "product": "Edgell Kidney Beans Red",
+   "shelfPrice": 1.7,
+   "size": "400g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "kidneybeans|ml",
+   "price": 0.43,
+   "product": "Edgell Kidney Beans Red",
+   "shelfPrice": 1.7,
+   "size": "400g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "banana|g",
+   "price": 0.599,
+   "product": "Bananas",
+   "shelfPrice": 1.0782,
+   "size": "180g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "banana|ml",
+   "price": 0.599,
+   "product": "Bananas",
+   "shelfPrice": 1.0782,
+   "size": "180g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "banana|each",
+   "price": 0.7188,
+   "product": "Bananas",
+   "shelfPrice": 1.0782,
+   "size": "180g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "apple|g",
+   "price": 0.699,
+   "product": "Pink Lady Apples",
+   "shelfPrice": 1.398,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "apple|ml",
+   "price": 0.699,
+   "product": "Pink Lady Apples",
+   "shelfPrice": 1.398,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "apple|each",
+   "price": 1.2582,
+   "product": "Pink Lady Apples",
+   "shelfPrice": 1.398,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "orange|g",
+   "price": 0.399,
+   "product": "Navel Oranges",
+   "shelfPrice": 1.0374,
+   "size": "260g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "orange|ml",
+   "price": 0.399,
+   "product": "Navel Oranges",
+   "shelfPrice": 1.0374,
+   "size": "260g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "orange|each",
+   "price": 0.798,
+   "product": "Navel Oranges",
+   "shelfPrice": 1.0374,
+   "size": "260g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "lime|g",
+   "price": 1.499,
+   "product": "Limes",
+   "shelfPrice": 1.3491,
+   "size": "90g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "lime|ml",
+   "price": 1.499,
+   "product": "Limes",
+   "shelfPrice": 1.3491,
+   "size": "90g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "lime|each",
+   "price": 0.9744,
+   "product": "Limes",
+   "shelfPrice": 1.3491,
+   "size": "90g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "lemonjuice|g",
+   "price": 0.8725,
+   "product": "Prepack Lemons",
+   "shelfPrice": 3.49,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "lemonjuice|ml",
+   "price": 0.8725,
+   "product": "Prepack Lemons",
+   "shelfPrice": 3.49,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "blueberries|g",
+   "price": 3.19,
+   "product": "Blueberry Punnet",
+   "shelfPrice": 3.99,
+   "size": "125g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "blueberries|ml",
+   "price": 3.19,
+   "product": "Blueberry Punnet",
+   "shelfPrice": 3.99,
+   "size": "125g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "berries|g",
+   "price": 1.11,
+   "product": "Creative Gourmet Mix Berries",
+   "shelfPrice": 10,
+   "size": "900g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "berries|ml",
+   "price": 1.11,
+   "product": "Creative Gourmet Mix Berries",
+   "shelfPrice": 10,
+   "size": "900g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "tomato|g",
+   "price": 0.699,
+   "product": "Gourmet Tomatoes",
+   "shelfPrice": 0.7689,
+   "size": "110g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "tomato|ml",
+   "price": 0.699,
+   "product": "Gourmet Tomatoes",
+   "shelfPrice": 0.7689,
+   "size": "110g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "tomato|each",
+   "price": 0.8388,
+   "product": "Gourmet Tomatoes",
+   "shelfPrice": 0.7689,
+   "size": "110g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "capsicum|g",
+   "price": 0.499,
+   "product": "Prepack Capsicum",
+   "shelfPrice": 4.99,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "capsicum|ml",
+   "price": 0.499,
+   "product": "Prepack Capsicum",
+   "shelfPrice": 4.99,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "capsicum|each",
+   "price": 0.8982,
+   "product": "Prepack Capsicum",
+   "shelfPrice": 4.99,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "zucchini|g",
+   "price": 0.799,
+   "product": "Green Zucchini",
+   "shelfPrice": 1.598,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "zucchini|ml",
+   "price": 0.799,
+   "product": "Green Zucchini",
+   "shelfPrice": 1.598,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "zucchini|each",
+   "price": 1.598,
+   "product": "Green Zucchini",
+   "shelfPrice": 1.598,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "cucumber|g",
+   "price": 0.199,
+   "product": "Lebanese Cucumbers",
+   "shelfPrice": 0.2786,
+   "size": "140g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "cucumber|ml",
+   "price": 0.199,
+   "product": "Lebanese Cucumbers",
+   "shelfPrice": 0.2786,
+   "size": "140g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "cucumber|each",
+   "price": 0.2985,
+   "product": "Lebanese Cucumbers",
+   "shelfPrice": 0.2786,
+   "size": "140g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "carrot|g",
+   "price": 0.299,
+   "product": "Carrots",
+   "shelfPrice": 0.5083,
+   "size": "170g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "carrot|ml",
+   "price": 0.299,
+   "product": "Carrots",
+   "shelfPrice": 0.5083,
+   "size": "170g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "carrot|each",
+   "price": 0.3588,
+   "product": "Carrots",
+   "shelfPrice": 0.5083,
+   "size": "170g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "onion|g",
+   "price": 0.399,
+   "product": "Brown Onion",
+   "shelfPrice": 0.7182,
+   "size": "180g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "onion|ml",
+   "price": 0.399,
+   "product": "Brown Onion",
+   "shelfPrice": 0.7182,
+   "size": "180g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "onion|each",
+   "price": 0.5985,
+   "product": "Brown Onion",
+   "shelfPrice": 0.7182,
+   "size": "180g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "redonion|g",
+   "price": 0.599,
+   "product": "Red Onion",
+   "shelfPrice": 1.198,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "redonion|ml",
+   "price": 0.599,
+   "product": "Red Onion",
+   "shelfPrice": 1.198,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "redonion|each",
+   "price": 0.8985,
+   "product": "Red Onion",
+   "shelfPrice": 1.198,
+   "size": "200g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "garlic|g",
+   "price": 1.999,
+   "product": "Garlic Bulb",
+   "shelfPrice": 1.3993,
+   "size": "70g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "garlic|ml",
+   "price": 1.999,
+   "product": "Garlic Bulb",
+   "shelfPrice": 1.3993,
+   "size": "70g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "garlic|each",
+   "price": 0.0999,
+   "product": "Garlic Bulb",
+   "shelfPrice": 1.3993,
+   "size": "70g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "ginger|g",
+   "price": 3.499,
+   "product": "Ginger",
+   "shelfPrice": 4.1988,
+   "size": "120g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "ginger|ml",
+   "price": 3.499,
+   "product": "Ginger",
+   "shelfPrice": 4.1988,
+   "size": "120g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "mushrooms|g",
+   "price": 1.499,
+   "product": "Mushroom Cups Loose",
+   "shelfPrice": 14.99,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "mushrooms|ml",
+   "price": 1.499,
+   "product": "Mushroom Cups Loose",
+   "shelfPrice": 14.99,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "broccoli|g",
+   "price": 0.699,
+   "product": "Broccoli Floret",
+   "shelfPrice": 2.3766,
+   "size": "340g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "broccoli|ml",
+   "price": 0.699,
+   "product": "Broccoli Floret",
+   "shelfPrice": 2.3766,
+   "size": "340g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "broccoli|each",
+   "price": 2.4465,
+   "product": "Broccoli Floret",
+   "shelfPrice": 2.3766,
+   "size": "340g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "beansgreen|g",
+   "price": 1.599,
+   "product": "Green Beans",
+   "shelfPrice": 3.9975,
+   "size": "250g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "beansgreen|ml",
+   "price": 1.599,
+   "product": "Green Beans",
+   "shelfPrice": 3.9975,
+   "size": "250g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "peas|g",
+   "price": 0.4,
+   "product": "Black & Gold Peas",
+   "shelfPrice": 2,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "peas|ml",
+   "price": 0.4,
+   "product": "Black & Gold Peas",
+   "shelfPrice": 2,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "corn|g",
+   "price": 0.5,
+   "product": "Black & Gold Corn Kernels",
+   "shelfPrice": 2.5,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "corn|ml",
+   "price": 0.5,
+   "product": "Black & Gold Corn Kernels",
+   "shelfPrice": 2.5,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "mixedveg|g",
+   "price": 0.28,
+   "product": "Black & Gold Mixed Vegetables",
+   "shelfPrice": 2.8,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "mixedveg|ml",
+   "price": 0.28,
+   "product": "Black & Gold Mixed Vegetables",
+   "shelfPrice": 2.8,
+   "size": "1kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "potato|g",
+   "price": 0.367,
+   "product": "Less Carb Washed Potatoes",
+   "shelfPrice": 5.5,
+   "size": "1.5kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "potato|ml",
+   "price": 0.367,
+   "product": "Less Carb Washed Potatoes",
+   "shelfPrice": 5.5,
+   "size": "1.5kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "potato|each",
+   "price": 0.734,
+   "product": "Less Carb Washed Potatoes",
+   "shelfPrice": 5.5,
+   "size": "1.5kg",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sweetpotato|g",
+   "price": 0.499,
+   "product": "Gold Sweet Potatoes",
+   "shelfPrice": 1.7465,
+   "size": "350g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sweetpotato|ml",
+   "price": 0.499,
+   "product": "Gold Sweet Potatoes",
+   "shelfPrice": 1.7465,
+   "size": "350g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sweetpotato|each",
+   "price": 1.996,
+   "product": "Gold Sweet Potatoes",
+   "shelfPrice": 1.7465,
+   "size": "350g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "oliveoil|g",
+   "price": 1.375,
+   "product": "Moro Extra Virgin Olive Oil",
+   "shelfPrice": 54.99,
+   "size": "4l",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "oliveoil|ml",
+   "price": 1.375,
+   "product": "Moro Extra Virgin Olive Oil",
+   "shelfPrice": 54.99,
+   "size": "4l",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sesameoil|g",
+   "price": 3.1,
+   "product": "Ayam Pure Sesame Oil",
+   "shelfPrice": 6.5,
+   "size": "210ml",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "sesameoil|ml",
+   "price": 3.1,
+   "product": "Ayam Pure Sesame Oil",
+   "shelfPrice": 6.5,
+   "size": "210ml",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "soy|g",
+   "price": 0.38,
+   "product": "Black & Gold Soy Sauce",
+   "shelfPrice": 1.9,
+   "size": "500ml",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "soy|ml",
+   "price": 0.38,
+   "product": "Black & Gold Soy Sauce",
+   "shelfPrice": 1.9,
+   "size": "500ml",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "honey|g",
+   "price": 1.3,
+   "product": "Community Co Honey Jar",
+   "shelfPrice": 6.5,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "honey|ml",
+   "price": 1.3,
+   "product": "Community Co Honey Jar",
+   "shelfPrice": 6.5,
+   "size": "500g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "mustard|g",
+   "price": 1.05,
+   "product": "MasterFoods Mustard Mild American Squeeze",
+   "shelfPrice": 5.8,
+   "size": "550g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "mustard|ml",
+   "price": 1.05,
+   "product": "MasterFoods Mustard Mild American Squeeze",
+   "shelfPrice": 5.8,
+   "size": "550g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "salsa|g",
+   "price": 0.92,
+   "product": "Doritos Mild Salsa",
+   "shelfPrice": 2.75,
+   "size": "300g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "salsa|ml",
+   "price": 0.92,
+   "product": "Doritos Mild Salsa",
+   "shelfPrice": 2.75,
+   "size": "300g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "passata|g",
+   "price": 0.69,
+   "product": "Mutti Passata Tomato Puree",
+   "shelfPrice": 4.8,
+   "size": "700g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "passata|ml",
+   "price": 0.69,
+   "product": "Mutti Passata Tomato Puree",
+   "shelfPrice": 4.8,
+   "size": "700g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "coconutm|g",
+   "price": 0.25,
+   "product": "Australia's Own Organic Coconut Milk Unsweetened",
+   "shelfPrice": 2.5,
+   "size": "1l",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "coconutm|ml",
+   "price": 0.25,
+   "product": "Australia's Own Organic Coconut Milk Unsweetened",
+   "shelfPrice": 2.5,
+   "size": "1l",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "peanutbutter|g",
+   "price": 0.98,
+   "product": "Bega Crunchy Peanut Butter",
+   "shelfPrice": 7.4,
+   "size": "755g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "peanutbutter|ml",
+   "price": 0.98,
+   "product": "Bega Crunchy Peanut Butter",
+   "shelfPrice": 7.4,
+   "size": "755g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "chias|g",
+   "price": 1.71,
+   "product": "Community Co Aussie Black Chia Seeds",
+   "shelfPrice": 6,
+   "size": "350g",
+   "checkedAt": "2026-10-15T08:35:39Z"
+  },
+  {
+   "storeId": "iga",
+   "key": "chias|ml",
+   "price": 1.71,
+   "product": "Community Co Aussie Black Chia Seeds",
+   "shelfPrice": 6,
+   "size": "350g",
+   "checkedAt": "2026-10-15T08:35:39Z"
   }
  ]
 }
