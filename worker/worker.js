@@ -195,7 +195,10 @@ function splitIngredient(line) {
   const [, qty, unit = '', rest] = m;
   // Cut preparation notes ('garlic, crushed') but keep descriptive commas
   // ('skinless, boneless chicken breasts').
-  const name = rest.replace(PREP_NOTE, '').replace(/\bto serve\b.*$/i, '').trim() || rest.trim();
+  const name = rest
+    .replace(/^\/\s*[\d.½¼¾⅓⅔]+\s*[a-z]+\.?\s+/i, '') // '500g/1lb chicken' -> 'chicken'
+    .replace(/\s+[-–—]\s+.*$/, '') // ' - cut into pieces'
+    .replace(PREP_NOTE, '').replace(/\bto serve\b.*$/i, '').replace(/\*+/g, '').trim() || rest.trim();
   if (/^(pounds?|lbs?|ounces?|oz)$/i.test(unit)) {
     const n = toNumber(qty);
     if (n) return [`${Math.round(n * (/^[pl]/i.test(unit) ? 453.6 : 28.35))}g`, name];
