@@ -1,7 +1,7 @@
 {
-  "name": "Everyday Lean AU \u2014 Recipes & Meal Prep",
+  "name": "Everyday Lean AU — Recipes & Meal Prep",
   "short_name": "Everyday Lean",
-  "description": "Everyday Lean AU: recipes, nutrition and Australian supermarket price comparisons",
+  "description": "Australian recipe planner and shopping list",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
