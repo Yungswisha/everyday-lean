@@ -1,0 +1,41 @@
+name: Update prices and recipes
+
+on:
+  schedule:
+    - cron: '0 19 * * *'  # daily, 5am AEST / 6am AEDT
+  workflow_dispatch:      # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency: update-data
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch supermarket prices
+        run: python scripts/fetch_prices.py
+
+      - name: Discover recipes with Brave Search
+        if: always()
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: python scripts/discover_recipes.py
+
+      - name: Save updated data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in prices.json discover.json; do [ -f "$f" ] && git add "$f"; done
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Daily price and recipe update"
+          git push

@@ -274,4 +274,5 @@ const root=document.getElementById('root');root.addEventListener('click',actionC
 window.addEventListener('online',()=>{state.online=true});window.addEventListener('offline',()=>{state.online=false;if(state.page==='explore')flash('Offline — saved recipes still work')});
 if('serviceWorker'in navigator&&location.protocol==='https:'){navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(()=>{})}
 render();
-</script></body></html>
+</script>
+<script src="./discover.js"></script></body></html>
