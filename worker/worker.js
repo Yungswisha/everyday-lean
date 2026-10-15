@@ -176,6 +176,8 @@ const QTY = String.raw`(?:\d+\s+\d+/\d+|\d+/\d+|\d+(?:\.\d+)?|[½¼¾⅓⅔])(?:
 const UNITS = String.raw`kg|kilograms?|g|grams?|ml|millilit(?:re|er)s?|l|lit(?:re|er)s?|tbsp|tablespoons?|tsp|teaspoons?|pounds?|lbs?|ounces?|oz|cups?|cloves?|pieces?|whole|eggs?|cans?|tins?|bunch(?:es)?|handfuls?|pinch(?:es)?|slices?`;
 const MEASURE = new RegExp(String.raw`^\s*(${QTY})\s*(${UNITS})?\.?\b\s*(?:of\s+)?(.*)$`, 'i');
 
+const PREP_NOTE = /,\s*(?:finely|roughly|thinly|coarsely|freshly|very|well|lightly|cut|chopped|diced|sliced|minced|crushed|grated|peeled|deseeded|seeded|halved|quartered|cubed|trimmed|drained|rinsed|divided|softened|melted|beaten|shredded|torn|juiced|zested|cooked|plus|or|at|for|to|optional|about|room)\b.*$/i;
+
 function toNumber(q) {
   q = q.replace('½', '1/2').replace('¼', '1/4').replace('¾', '3/4').replace('⅓', '1/3').replace('⅔', '2/3');
   if (/[-–]/.test(q)) return null;
@@ -191,7 +193,9 @@ function splitIngredient(line) {
   const m = s.match(MEASURE);
   if (!m) return ['', s];
   const [, qty, unit = '', rest] = m;
-  const name = (rest.split(/,|\bto serve\b/)[0] || rest).trim();
+  // Cut preparation notes ('garlic, crushed') but keep descriptive commas
+  // ('skinless, boneless chicken breasts').
+  const name = rest.replace(PREP_NOTE, '').replace(/\bto serve\b.*$/i, '').trim() || rest.trim();
   if (/^(pounds?|lbs?|ounces?|oz)$/i.test(unit)) {
     const n = toNumber(qty);
     if (n) return [`${Math.round(n * (/^[pl]/i.test(unit) ? 453.6 : 28.35))}g`, name];
